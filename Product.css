@@ -1,0 +1,12 @@
+.des{
+  font-size: 14px
+}
+.contain{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contain button{
+  margin: 5px;
+}

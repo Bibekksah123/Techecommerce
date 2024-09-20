@@ -1,0 +1,52 @@
+header{
+  position: sticky;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  padding: 5px;
+}
+.logo img{
+  width: 30px;
+  cursor: pointer;
+}
+.searchbar{
+  width: 30%;
+  font-size:20px;
+ 
+}
+.searchbar input{
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  padding-left: 10px;
+  flex: 1;
+  cursor: pointer;
+}
+.card{
+  font-size: 30px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+
+}
+.card .cardshop{
+  color: rgb(18, 17, 17);
+}
+.navbar-refer{
+ 
+ margin:30px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.items{
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  color: green;
+}
